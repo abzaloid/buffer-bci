@@ -26,10 +26,7 @@ if (dpacxy(1)>size(map,1))
   % ndxy(1)  =dpacxy(1)-pacxy(1);
 end;
 
-
-ndxy(1) = 0;
-
-
+ndxy(:) = 0;
 
 % check for run into wall
 if map(dpacxy(1),dpacxy(2))==key.wall
